@@ -1,0 +1,87 @@
+body{ 
+    font-family: Cormorant, serif;
+}
+
+/* Nav bar styling */
+h1{
+    display: inline-block;
+    margin:0 28px 0 0 ;
+}
+
+.navbar {
+    margin: 30px;
+}
+
+.links {
+    display: inline-block;
+}
+.links ul {
+    padding: none;
+}
+.links li{
+    display: inline-block;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-around;
+    position: relative;
+    letter-spacing: 0.5px
+}
+
+.links a:hover {
+    font-weight:bolder;
+    text-decoration: underline;
+    text-shadow: 2px 2px 7px lightgrey;
+}
+
+.links a:hover:after {
+    width: 100%;
+}
+
+
+/* Images section in page */
+.card img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card {
+    width: 49.75%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 3px 0 16px 0;
+}
+
+.gallery {
+    padding: 16px;
+}
+
+
+/* Styling for about section on the bottom of page */
+.about {
+    margin: 30px 0 100px 250px;
+    font-size: 20px;
+    width: 40%;
+}
+
+#thank {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    display: inline-block;
+    
+}
+
+img:hover{
+    opacity: 0.9;
+}
